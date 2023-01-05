@@ -102,6 +102,7 @@ main {
     border-radius: 10px;
     padding: 130px 150px;
 }
+
 section {
     margin-top: 130px;
 }
@@ -166,3 +167,38 @@ section {
 }
 
 /* Resume style */
+
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+.description {
+    color: #757575;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
